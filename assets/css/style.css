@@ -1,0 +1,21 @@
+body{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 600px;
+    background-color: slategray;
+}
+/* class for main boz that contains the quiz */
+.quiz-box{
+    display: block;
+
+    background-color: azure;
+    text-align: center;
+}
+
+.quiz-box h2{
+    padding: 10px;
+}
+/* button to start the quiz */
+.start-button{
+    margin-bottom: 20px;
+}
