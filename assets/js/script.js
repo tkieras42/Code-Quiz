@@ -2,6 +2,7 @@
 var highscoreArray = [{}];
 var trueBtnElement = $("#quiz-box");
 var falseBtnElement = $("#quiz-box");
+var addUl = $("<ul>");
 // set elements
 var quizBox = $("#quiz-box");
 var scoreBox = $("#score-box");
@@ -13,9 +14,10 @@ function showQuestion1(){
     
     quizBox.empty();
     quizBox.append("<h3>A Boolean has a value of 'true' or 'flase'.</h3>");
-    quizBox.append("<button id='trueBtn'>True</button>");
+    quizBox.append(addUl);
+    addUl.append("<li><button id='trueBtn' class='trueBtn'>True</button>");
     trueBtnElement = $("#trueBtn")
-    quizBox.append("<button id='falseBtn'>False</button>");
+    addUl.append("<li><button id='falseBtn' class='falseBtn'>False</button>");
     falseBtnElement = $("#falseBtn");
 }
 function showQuestion2(){

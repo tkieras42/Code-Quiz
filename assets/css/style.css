@@ -13,21 +13,33 @@ body{
 /* class for main box that contains the quiz */
 .quiz-box{
     display: block;
-
+    padding: 15px;
     background-color: azure;
     text-align: center;
 }
 
 .quiz-box h2{
-    padding: 10px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+.quiz-box h3{
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+} 
+.quiz-box ul{
+    list-style-type: none;
+}
+.quiz-box ul li{
+    padding: 5px;
 }
 /* button to start the quiz */
 .start-button{
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 
 
-/*********  *********/
+/********* Highscore page *********/
 
 .score-box{
     display: block;
