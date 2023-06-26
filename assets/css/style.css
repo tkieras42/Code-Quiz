@@ -4,7 +4,13 @@ body{
     grid-template-columns: 600px;
     background-color: slategray;
 }
-/* class for main boz that contains the quiz */
+/********* Quiz page index.html ************/
+.highscore-link{
+    color: rgb(202, 38, 38);
+    font-size: 20px;
+    text-decoration: none;
+}
+/* class for main box that contains the quiz */
 .quiz-box{
     display: block;
 
@@ -19,3 +25,27 @@ body{
 .start-button{
     margin-bottom: 20px;
 }
+
+
+/*********  *********/
+
+.score-box{
+    display: block;
+    background-color: azure;
+    text-align: center;
+}    
+
+.score-box ul{
+    padding-inline-start: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: decimal;
+}
+
+.reset-button{
+    background-color: rgb(255, 98, 98);
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
