@@ -13,6 +13,7 @@ body{
 /* class for main box that contains the quiz */
 .quiz-box{
     display: block;
+    height: 200px;
     padding: 15px;
     background-color: azure;
     text-align: center;
@@ -24,10 +25,13 @@ body{
 }
 .quiz-box h3{
     margin-block-start: 0px;
-    margin-block-end: 0px;
+    margin-block-end: 20px;
 } 
 .quiz-box ul{
     list-style-type: none;
+    padding-inline-start: 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
 }
 .quiz-box ul li{
     padding: 5px;
