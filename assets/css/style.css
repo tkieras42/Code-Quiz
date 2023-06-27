@@ -36,6 +36,11 @@ body{
 .quiz-box ul li{
     padding: 5px;
 }
+
+.button{
+    text-align: center;
+    min-width: 50px;
+}
 /* button to start the quiz */
 .start-button{
     margin-top: 20px;
