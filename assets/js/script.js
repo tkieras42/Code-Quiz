@@ -62,10 +62,10 @@ function showQuestion2(){
     quizBox.empty();
     quizBox.append("<h3>How does a FOR loop start?</h3>");   
     quizBox.append(addUl); 
-    addUl.append("<li><button class='incorrect button'>for(i = 0; i > 10)/button>");
-    addUl.append("<li><button class='incorrect button'>for i = 1, i >10, i++</button>");    
-    addUl.append("<li><button class='correct button'>for(i = 0; i > 10; i++</button>");
-    addUl.append("<li><button class='incorrect button'>for(i++; i > 10)</button>");
+    addUl.append("<li><button class='incorrect button long-btn'>for(i = 0; i > 10)/button>");
+    addUl.append("<li><button class='incorrect button long-btn'>for i = 1, i >10, i++</button>");    
+    addUl.append("<li><button class='correct button long-btn'>for(i = 0; i > 10; i++</button>");
+    addUl.append("<li><button class='incorrect button long-btn'>for(i++; i > 10)</button>");
     
 }
 
@@ -85,9 +85,9 @@ function showQuestion4(){
     quizBox.empty();
     quizBox.append("<h3>How do you call a function named 'testFunction'?</h3>");
     quizBox.append(addUl); 
-    addUl.append("<li><button class='correct button'>Myfunction();</button>");
-    addUl.append("<li><button class='incorrect button'>call myFunction()</button>");    
-    addUl.append("<li><button class='incorrect button'>function myFunction()</button>");
+    addUl.append("<li><button class='correct button long-btn'>Myfunction();</button>");
+    addUl.append("<li><button class='incorrect button long-btn'>call myFunction()</button>");    
+    addUl.append("<li><button class='incorrect button long-btn'>function myFunction()</button>");
 }
 
 function showQuestion5(){
@@ -95,15 +95,16 @@ function showQuestion5(){
     quizBox.empty();
     quizBox.append("<h3>Inside which HTML element do we put the JavaScript?</h3>");
     quizBox.append(addUl); 
-    addUl.append("<li><button class='incorrect button'><js></button>");
-    addUl.append("<li><button class='incorrect button'><link></button>");    
-    addUl.append("<li><button class='incorrect button'><javascript></button>");
-    addUl.append("<li><button class='correct button'><script></button>");
+    addUl.append("<li><button class='incorrect button'>'<js>'</button>");
+    addUl.append("<li><button class='incorrect button'>'<link>'</button>");    
+    addUl.append("<li><button class='incorrect button'>'<javascript>'</button>");
+    addUl.append("<li><button class='correct button'>'<script>'</button>");
 }
 
 function showScorePage(){
     quizBox.empty();
     quizBox.append("<h3>score</h3>");
+    quizBox.append("<textarea><textarea>");
 }
 // checks if the button pressed is the correct answer
 function questionAnswer(){

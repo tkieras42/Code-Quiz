@@ -41,6 +41,9 @@ body{
     text-align: center;
     min-width: 50px;
 }
+.long-btn{
+    width: 200px;
+}
 /* button to start the quiz */
 .start-button{
     margin-top: 20px;
