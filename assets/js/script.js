@@ -62,8 +62,8 @@ function showQuestion2(){
     quizBox.empty();
     quizBox.append("<h3>How does a FOR loop start?</h3>");   
     quizBox.append(addUl); 
-    addUl.append("<li><button class='incorrect button long-btn'>for(i = 0; i > 10)/button>");
-    addUl.append("<li><button class='incorrect button long-btn'>for i = 1, i >10, i++</button>");    
+    addUl.append("<li><button class='incorrect button long-btn'>for(i = 0; i > 10)</button>");
+    addUl.append("<li><button class='incorrect button long-btn'>for(i = 1, i >10, i++)</button>");    
     addUl.append("<li><button class='correct button long-btn'>for(i = 0; i > 10; i++</button>");
     addUl.append("<li><button class='incorrect button long-btn'>for(i++; i > 10)</button>");
     
@@ -85,9 +85,9 @@ function showQuestion4(){
     quizBox.empty();
     quizBox.append("<h3>How do you call a function named 'testFunction'?</h3>");
     quizBox.append(addUl); 
-    addUl.append("<li><button class='correct button long-btn'>Myfunction();</button>");
-    addUl.append("<li><button class='incorrect button long-btn'>call myFunction()</button>");    
-    addUl.append("<li><button class='incorrect button long-btn'>function myFunction()</button>");
+    addUl.append("<li><button class='correct button long-btn'>testFunction();</button>");
+    addUl.append("<li><button class='incorrect button long-btn'>call testFunction()</button>");    
+    addUl.append("<li><button class='incorrect button long-btn'>function testFunction()</button>");
 }
 
 function showQuestion5(){
